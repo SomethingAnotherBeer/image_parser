@@ -1,0 +1,37 @@
+.notification {
+  width: 20%;
+  display: none;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  animation-name: animateright;
+  animation-duration: 0.4s;
+}
+.notification-text {
+  padding: 20px 30px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.success {
+  background-color: #26734E;
+}
+
+.error {
+  background-color: #B0503B;
+}
+
+@keyframes animateright {
+  from {
+    left: -300px;
+    opacity: 0;
+  }
+  to {
+    left: 30%;
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=notification.css.map */

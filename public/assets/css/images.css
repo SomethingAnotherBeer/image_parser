@@ -1,0 +1,16 @@
+.parsed-images {
+  display: flex;
+  max-width: 80%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.parsed-images .image {
+  margin-left: 30px;
+}
+.parsed-images .image img {
+  max-width: 400px;
+  max-height: 400px;
+  object-fit: contain;
+}
+
+/*# sourceMappingURL=images.css.map */
